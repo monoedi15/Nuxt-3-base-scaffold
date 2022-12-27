@@ -12,7 +12,8 @@
     "prettier": "prettier --write .",
     "prettier-check": "prettier --check .",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore --fix .",
-    "lint:js-check": "eslint --ext \".js,.vue\" --ignore-path .gitignore ."
+    "lint:js-check": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "add-husky": "husky add .husky/pre-commit \"npm run lint-check\""
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
@@ -24,10 +25,5 @@
     "husky": "^8.0.0",
     "nuxt": "3.0.0",
     "prettier": "2.8.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:js-check && npm run prettier-check"
-    }
   }
 }
