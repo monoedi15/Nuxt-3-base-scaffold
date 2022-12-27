@@ -7,7 +7,7 @@
 - Setup husky to validate eslint and prettier rules before commits.
 - Setup SASS and its loads on Vite.
 
-We recomment to install Prettier extension on VS code and configure ir as default code formatter for js and vue files.
+We recommend that you install the Prettier extension on VS Code and configure it as the default code formatter for JS and Vue files.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
