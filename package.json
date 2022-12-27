@@ -7,10 +7,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && husky install",
     "prepare": "husky install",
-    "lint-check": "prettier --check . && eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "npm run lint:prettier && npm run lint:js",
-    "lint:prettier": "prettier --write .",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore --fix ."
+    "lint": "npm run prettier && npm run lint:js",
+    "prettier": "prettier --write .",
+    "prettier-check": "prettier --check .",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore --fix .",
+    "lint:js-check": "eslint --ext \".js,.vue\" --ignore-path .gitignore ."
   },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
