@@ -1,0 +1,4 @@
+[*.{js,jsx,ts,tsx,vue}]
+editor_default_formatter = "esbenp.prettier-vscode"
+max_line_length = 100
+indent_size = 2
