@@ -1,8 +1,6 @@
 <template>
   <div>
-        <NuxtWelcome />
+    <NuxtWelcome />
   </div>
 </template>
-<script setup>
-import NuxtWelcome from './components/NuxtWelcome.vue'
-</script>
+<script setup></script>
