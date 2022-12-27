@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn run lint
-git add .
-git commit -m "pre-commit, linting"
+yarn run lint-check
