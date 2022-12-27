@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "sass": "^1.57.1",
-    "sass-loader": "^13.2.0",
     "vite-plugin-eslint": "^1.8.1"
   }
 }
