@@ -4,7 +4,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['airbnb-base', 'plugin:vue/vue3-essential', 'plugin:nuxt/recommended', 'prettier'],
+  extends: [
+    'airbnb-base',
+    '@nuxtjs/eslint-config',
+    'plugin:nuxt/recommended',
+    'plugin:vue/vue3-recommended',
+    'prettier',
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',

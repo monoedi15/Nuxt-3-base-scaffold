@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import eslintPlugin from 'vite-plugin-eslint';
+
 // eslint-disable-next-line no-undef
 export default defineNuxtConfig({
   vite: {
@@ -9,5 +11,6 @@ export default defineNuxtConfig({
         },
       },
     },
+    plugins: [eslintPlugin()],
   },
 });
