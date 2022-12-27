@@ -1,4 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Minimal Starter with the following additions:
+
+- Setup eslint with nuxt 3 rules.
+- Setup eslint airbnb style rules.
+- Setup Prettier to format code. (configured to work fine with eslint).
+- Setup eslint validation on Vite develop console.
+- Setup husky to validate eslint and prettier rules before commits.
+- Setup SASS and its loads on Vite.
+
+We recomment to install Prettier extension on VS code and configure ir as default code formatter for js and vue files.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -9,6 +18,10 @@ Make sure to install the dependencies:
 ```bash
 # yarn
 yarn install
+(If you want to use yarn instead of npm, you can replace "npm" with "yarn" in the following files:
+  - .husky/pre-commit
+  - package.json
+)
 
 # npm
 npm install
